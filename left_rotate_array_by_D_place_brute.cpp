@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 
-vector<int> left_rotated_array(vector<int> &array, int d){
+void left_rotated_array(vector<int> &array, int d){
     int size=array.size();
     d=d%size;
     vector<int> temp(array.begin(),array.begin()+d);
@@ -19,7 +19,7 @@ vector<int> left_rotated_array(vector<int> &array, int d){
     
     
     
-    return array;
+   
 }
 
 int main(){
