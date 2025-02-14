@@ -2,14 +2,14 @@
 #include<vector>
 using namespace std;
 
-vector<int> left_rotated_array(vector<int> &array){
+void left_rotated_array(vector<int> &array){
     int size=array.size();
     int temp=array[0];
     for(int i=0;i<size-1;i++){
         array[i]=array[i+1];
     }
     array[size-1]=temp;
-    return array;
+    
 }
 
 int main(){
