@@ -9,8 +9,9 @@ public:
     Node *left, *right;
     Node(int val)
     {
-        data = val;
-        left = right = NULL;
+        this->data = val;
+        this->left =  NULL;
+        this->right= NULL;
     }
 };
 
